@@ -1,0 +1,114 @@
+body{
+    position: relative;
+}
+#cuerpo{
+    height: auto;
+    
+    width: 90vw;
+    margin: 0px auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   margin: 0 auto;
+    height: 8vh;
+    background-color: rgb(170, 170, 170);
+    z-index: 5;
+}
+
+header h2{
+    text-align: center;
+    color: #4d3838da;
+    /* background-color: rgb(248, 248, 248); */
+}
+
+#opciones{
+    height: 7vh;
+    z-index:4;
+   margin: 0px;
+  position:fixed;
+  top:8vh;
+  
+ 
+  text-align: center;
+width: 85%;
+ 
+       background-color: rgba(172, 172, 172, 0.973);
+}
+#opciones a{
+   
+    height: 100%;
+    width: 100%;
+    color: rgba(77, 56, 56, 0.856);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234d3838da' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234d3838da' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+nav{
+    position: relative;
+   right: 6%;
+    
+}
+#opciones ul {
+height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+   
+}
+
+
+#opciones ul li{
+    position: relative;
+    bottom:6px;
+height: auto;
+width: 100%;
+margin-left:0px;
+box-sizing: border-box;
+
+}
+    .piso-galeri{
+        position:relative;
+        top: 5vh;
+        
+        height: 92vh;
+        
+        width: 100%;
+        padding: 1.2em;
+        z-index: 3;
+    }
+    #retrato-slide{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner{
+        height: 80vh;
+       
+    }
+    .carousel-inner img{
+       height:80vh;
+       width: 90%;
+       padding-left: 10%;
+      
+        
+    }
+  #opciones a.active{
+
+       font-size: 1.2em;
+       color: rgba(245, 244, 244, 0.973);
+       background-color: rgba(77, 56, 56, 0.856);
+       text-shadow: 0px 0px 5px rgba(19, 19, 19, 0.753);
+       box-shadow: inset 0px 0px 2px 1px rgba(255,255,255,0.5);
+   }
+    /* nav{
+        color: rgba(77, 56, 56, 0.856);
+    } */
